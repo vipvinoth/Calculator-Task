@@ -1,0 +1,139 @@
+/*Example 1........
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(8, 6, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.calculator{
+    background-color: rgb(16, 171, 243);
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0,0,0, 0.2) ;
+    background: transparent;
+    font-size: 20px;
+    color:#0a0808;
+    cursor: pointer;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
+form input.row1{
+    color: aliceblue;
+} */
+
+/* Example 2....... */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: white;
+}
+h1{
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    position: absolute;
+    margin: 50px 100px 540px 100px;
+
+}
+p{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    margin: 50px 100px 280px -10px;  
+}
+.calci{
+    width: 353px;
+    background-color: black;
+    border-radius: 10px;
+}
+#switch{
+    margin-left: 210px;
+    font-size: 18px;
+    color: rgb(243, 239, 9);
+    border: 2px solid yellow;
+    background-color: #f0e116;
+    width: 80px;
+}
+input[type="text"]{
+    height: 60px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 1px;
+    border: 1px solid red;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background-color: white;
+}
+form .buttons{
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    padding: 10px 0 ;
+}
+input[type="button"]{
+    width: 58px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(#d9d9d9,#bfbfbf);
+}
+input[type="button"]:hover{
+    transition: .5s;
+    background: linear-gradient(#bfbfbf,red, black );
+
+}
+input.clear{
+    background: rgb(20, 194, 224);
+    border: 1px solid #cc0000;
+    color: white;
+}
+input.equal{
+    width: 280px;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    color: white;
+    background: #06e24f;
+    border: 1px solid #b32a00;
+}
+
+
+
